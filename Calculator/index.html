@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    
+    <div class="calculator">
+        <div class="calculator__wrap">
+            <div class="calculator__display" id="calculator__display">
+                0
+            </div>
+            <div class="calculator__functions">
+                <button value="clear" onclick="addToCalculation(this.value)" class="btn--opaque">AC</button>
+                <button value="-" onclick="addToCalculation(this.value)"class="btn--opaque">+/-</button>
+                <button value="%" onclick="addToCalculation(this.value)" class="btn--opaque">%</button>
+                <button value="/" onclick="addToCalculation(this.value)" class="btn--opaque">/</button>
+                <button value="7" onclick="addToCalculation(this.value)">7</button>
+                <button value="8" onclick="addToCalculation(this.value)">8</button>
+                <button value="9" onclick="addToCalculation(this.value)">9</button>
+                <button value="*" onclick="addToCalculation(this.value)"class="btn--opaque">*</button>
+                <button value="4" onclick="addToCalculation(this.value)">4</button>
+                <button value="5" onclick="addToCalculation(this.value)">5</button>
+                <button value="6" onclick="addToCalculation(this.value)">6</button>
+                <button value="-" onclick="addToCalculation(this.value)" onclick="addToCalculation(this.value)"class="btn--opaque">-</button>
+                <button value="1" onclick="addToCalculation(this.value)">1</button>
+                <button value="2" onclick="addToCalculation(this.value)">2</button>
+                <button value="3" onclick="addToCalculation(this.value)">3</button>
+                <button value="+" onclick="addToCalculation(this.value)"class="btn--opaque">+</button>
+                <button value="0" onclick="addToCalculation(this.value)"class="btn--large">0</button>
+                <button value="." onclick="addToCalculation(this.value)">.</button>
+                <button value="=" class="btn--opaque" onclick="solve()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+    
+
+</body>
+</html>
